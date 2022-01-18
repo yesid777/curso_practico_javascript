@@ -23,7 +23,6 @@ function ingresarValores(cantidad){
 }
 
 
-
 function calculo() {
     const InputCantidad = document.getElementById('InputCantidad')
 
@@ -34,7 +33,4 @@ function calculo() {
     const ResultadoP = document.getElementById('ResultadoP');
     ResultadoP.innerText = "El promedio de los " + valueCantidad+" sueldos ingresados es : $" + promedio + " pesos";
 }
-
-
-
 
