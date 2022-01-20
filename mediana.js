@@ -1,4 +1,4 @@
-//CALCULAR PROMEDIO
+//CALCULAR MEDIANA
 
 function CalMediana(cantidad,lista){
     
@@ -29,7 +29,7 @@ function CalMediana(cantidad,lista){
 function ingresarValores(cantidad){
     const lista =[];
     for (let i=0; i<cantidad; i++) {
-        x=parseInt(prompt("hola: " + i));
+        x=parseInt(prompt("Ingresa el sueldo numero : " + i));
         lista.push(x);
         console.log("lista ingresarValores" + lista)
     }
@@ -53,7 +53,7 @@ function calculo() {
     console.log("mediana calculo" + mediana)
 
     const ResultadoP = document.getElementById('ResultadoP');
-    ResultadoP.innerText = "El promedio de los " + valueCantidad+" sueldos ingresados es : $" + mediana + " pesos";
+    ResultadoP.innerText = "la Mediana de los " + valueCantidad+" sueldos ingresados es : $" + mediana + " pesos";
 }
 
 

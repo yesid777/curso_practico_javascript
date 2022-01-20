@@ -13,7 +13,7 @@ function Promedio(suma,cantidad){
 function ingresarValores(cantidad){
     const lista =[];
     for (let i=0; i<cantidad; i++) {
-        x=parseInt(prompt("hola: " + i));
+        x=parseInt(prompt("Ingresa el sueldo numero : " + i));
         lista.push(x);
         suma=suma+ lista[i];
     }
